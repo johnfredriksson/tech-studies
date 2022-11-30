@@ -513,6 +513,13 @@ VALUES
       ('59.341616342705414,17.879426969423765', '1', '30', '0');
 ```
 
+## **Test it out!**
+I ran the DML files in our MYSQL database and accessed the data through a react app with the leaflet module.
+
+And voila!
+
+![Stockholm map with newly produced data](img/stockholm.png)
+
 ## **Summary**
 We recieved a task to launch a new city in the database, defined what our goal would be. Studied the schema to determine what tables and fields would be affected. We identified relationships between the tables and structured our workflow accordingly.
 
