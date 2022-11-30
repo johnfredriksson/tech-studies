@@ -4,7 +4,7 @@
 ---
 
 
-You just built another project that integrates a SQL database that communicates with the front-end through an API, but theres no users in sight. How can we test our application with no data to fetch?
+You've just built another project that integrates a SQL database that communicates with the front-end through an API, but theres no users in sight. How can we test our application with no data to fetch?
 
 In this article we'll take a deeper look at ways to create larger amounts of data to fill our database. In all projects we develop, most likely, every data structure will be different from the last. While the code in this article might not be tailored to your exact needs, it serves as a guide to tackle similar situations.
 
