@@ -102,8 +102,6 @@ The remaining fields and their types are the following:
 - Password: string
 
 Next step is to create a function for each field that returns a random, but believable value with correct type.
-<br>
-<br>
 
 ### **FirstName**
 
@@ -114,8 +112,6 @@ def  get_first_name():
 	return  fake.first_name()
 ```
 Ehh.. is that all? Yes, that's all.
-<br>
-<br>
 
 ### **LastName**
 
@@ -125,8 +121,6 @@ By now you might have already guessed it, we implement the following function
 def  get_last_name():
 	return  fake.last_name()
 ```
-<br>
-<br>
 
 ### **PhoneNumber**
 
@@ -137,8 +131,6 @@ In my case, I'll settle for a believable set of digits and characters, since the
 def  get_phone_number():
 	return  fake.phone_number()
 ```
-<br>
-<br>
 
 ### **EmailAdress**
 
@@ -157,8 +149,6 @@ def  get_email_adress(first_name, last_name):
 
 return  address + fake.free_email_domain()
 ```
-<br>
-<br>
 
 ### **Balance**
 
@@ -168,8 +158,6 @@ My users need a balance in order to pay for their bike rides, in this case i jus
 def  get_balance():
 	return  random.randint(0,1000)
 ```
-<br>
-<br>
 
 ### **Password**
 
@@ -179,8 +167,6 @@ As a password you are free to select any word or completely randomised set of ch
 def  get_password():
 	return  "password"
 ```
-<br>
-<br>
 
 ### **Put a user together**
 
@@ -197,8 +183,6 @@ def  generate_user():
 		get_balance(),
 		get_password()]
 ```
-<br>
-<br>
 
 ### **Put a user together, *many many times*, in a formated SQL-file**
 
@@ -288,8 +272,6 @@ VALUES
 That's pretty cool.
 
 The reason of the filename is the fact that I'm deploying my database in a docker container where i specified a folder to copy all sql scripts from and run them in alphabetic order, **insert-1-users** is translated to **(type of DML)-(order)-(table)**.
-<br>
-<br>
 
 ### **Summary**
 We took a look at Python module Faker, implemented it in our solution. Identified all fields that makes a user, proceeded to define functions for each field. Defined a function that creates data for all fields by incorporating the previously defined functions. Opened a document with write option to manipulate the documents content, with the help of a loop create how many users we want. Saved the result output to said file.
