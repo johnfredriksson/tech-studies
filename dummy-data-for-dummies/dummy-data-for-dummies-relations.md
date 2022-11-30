@@ -14,7 +14,7 @@ The project is a bike rental service where our task is to model the database and
 
 You've just built a database and created a thousand Dummy Users, but the front-end team now wants you to incorporate a new city. The launch of the city includes stations spread around the city. Every station have a certain amount of chargers. We also need a few thousand bikes, these can be found either plugged into a charger or just randomly placed around the city.
 
-## **Break down it down**
+## **Break it down**
 
 It might sound like an overwhelming task, but like all other tasks we recieve, we must break it down into smaller pieces.
 
