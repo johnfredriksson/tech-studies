@@ -1,5 +1,5 @@
 # **Meet Redis, the first introduction to the in-memory cache.**
-*By John Fredriksson, 2022-11-30*
+*By John Fredriksson, 2022-12-02*
 
 ---
 ## **Introduction**
